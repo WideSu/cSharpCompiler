@@ -6,11 +6,11 @@ using basic_compiler.CodeAnalysis;
 
 namespace basic_compiler // Note: actual namespace depends on the project name.
 {
-    internal class Program
+    internal static class Program
     {
         static void Main(string[] args)
         {
-            bool showTree = false;
+            var showTree = false;
             while(true)
             {
                 Console.Write("> ");
@@ -33,20 +33,18 @@ namespace basic_compiler // Note: actual namespace depends on the project name.
 
                 if (showTree)
                 {
-                    var color = Console.ForegroundColor;
                     Console.ForegroundColor = ConsoleColor.DarkGray;
                     PrettyPrint(syntaxTree.Root);
-                    Console.ForegroundColor = color;
+                    Console.ResetColor();
                 }
                 if (syntaxTree.Diagnostics.Any())
                 {
-                     var color = Console.ForegroundColor;
                     Console.ForegroundColor = ConsoleColor.DarkRed;
                     foreach(var diagnostic in syntaxTree.Diagnostics)
                     {
                         Console.WriteLine(diagnostic);
                     }
-                    Console.ForegroundColor = color; 
+                    Console.ResetColor();
                 }
 
                 else

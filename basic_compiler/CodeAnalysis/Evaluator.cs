@@ -1,6 +1,6 @@
 namespace basic_compiler.CodeAnalysis
 {
-    class Evaluator
+    public class Evaluator
     {
         private readonly ExpressionSyntax _root;
         public Evaluator(ExpressionSyntax root)
