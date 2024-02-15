@@ -1,5 +1,5 @@
-# cSharpCompiler
-An ongoing C Sharp Compiler project.
+# Compiler
+An ongoing Compiler project built using C#.
 
 # Features
 Can parse binary expressions with parenthesis, return the result with error message and parser tree.
