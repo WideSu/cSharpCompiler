@@ -1,0 +1,15 @@
+/Users/huanganni/cSharpCompiler/basic_compiler/bin/Debug/net8.0/basic_compiler
+/Users/huanganni/cSharpCompiler/basic_compiler/bin/Debug/net8.0/basic_compiler.deps.json
+/Users/huanganni/cSharpCompiler/basic_compiler/bin/Debug/net8.0/basic_compiler.runtimeconfig.json
+/Users/huanganni/cSharpCompiler/basic_compiler/bin/Debug/net8.0/basic_compiler.dll
+/Users/huanganni/cSharpCompiler/basic_compiler/bin/Debug/net8.0/basic_compiler.pdb
+/Users/huanganni/cSharpCompiler/basic_compiler/obj/Debug/net8.0/basic_compiler.GeneratedMSBuildEditorConfig.editorconfig
+/Users/huanganni/cSharpCompiler/basic_compiler/obj/Debug/net8.0/basic_compiler.AssemblyInfoInputs.cache
+/Users/huanganni/cSharpCompiler/basic_compiler/obj/Debug/net8.0/basic_compiler.AssemblyInfo.cs
+/Users/huanganni/cSharpCompiler/basic_compiler/obj/Debug/net8.0/basic_compiler.csproj.CoreCompileInputs.cache
+/Users/huanganni/cSharpCompiler/basic_compiler/obj/Debug/net8.0/basic_compiler.sourcelink.json
+/Users/huanganni/cSharpCompiler/basic_compiler/obj/Debug/net8.0/basic_compiler.dll
+/Users/huanganni/cSharpCompiler/basic_compiler/obj/Debug/net8.0/refint/basic_compiler.dll
+/Users/huanganni/cSharpCompiler/basic_compiler/obj/Debug/net8.0/basic_compiler.pdb
+/Users/huanganni/cSharpCompiler/basic_compiler/obj/Debug/net8.0/basic_compiler.genruntimeconfig.cache
+/Users/huanganni/cSharpCompiler/basic_compiler/obj/Debug/net8.0/ref/basic_compiler.dll

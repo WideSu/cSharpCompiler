@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": ".NET Core Launch (console)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/basic_compiler/bin/Debug/net8.0/basic_compiler.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/basic_compiler",
+      "console": "externalTerminal",
+      "stopAtEntry": false
+    },
+    {
+      "name": ".NET Core Attach",
+      "type": "coreclr",
+      "request": "attach"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/huanganni/cSharpCompiler/basic_compiler/bin",
+      "program": "/Users/huanganni/cSharpCompiler/basic_compiler/bin/build/Debug/outDebug"
+    }
+  ]
+}
