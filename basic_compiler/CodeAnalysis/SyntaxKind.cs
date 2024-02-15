@@ -15,8 +15,8 @@ namespace basic_compiler.CodeAnalysis
         OpenParenthesisToken,
         CloseParenthesisToken,
         //expressions
-        NumberExpression,
         BinaryExpression,
-        ParenthesizedExpression
+        ParenthesizedExpression,
+        LiteralExpression
     }
 }
