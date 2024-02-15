@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/huanganni/cSharpCompiler/basic_compiler/basic_compiler.csproj",
+      "projectUniqueName": "/Users/huanganni/Documents/GitHub/cSharpCompiler/basic_compiler/basic_compiler.csproj",
       "projectName": "basic_compiler",
-      "projectPath": "/Users/huanganni/cSharpCompiler/basic_compiler/basic_compiler.csproj",
+      "projectPath": "/Users/huanganni/Documents/GitHub/cSharpCompiler/basic_compiler/basic_compiler.csproj",
       "packagesPath": "/Users/huanganni/.nuget/packages/",
-      "outputPath": "/Users/huanganni/cSharpCompiler/basic_compiler/obj/",
+      "outputPath": "/Users/huanganni/Documents/GitHub/cSharpCompiler/basic_compiler/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/huanganni/.nuget/NuGet/NuGet.Config"

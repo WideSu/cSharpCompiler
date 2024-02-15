@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CDBmtfAQSQhaY82QWU1UUzCR5yRaVMcJvdiBa1XASWiJa7VXs0ZtpcTzUoomhdg5kj52lX1fmIaEvEY5sqtBKw==",
+  "dgSpecHash": "LWRah3KIq+WPYt5/6yk9ERrH1nb1m8jIxo7Q1lc0T39fAZlW2959kpYnLsIplA478upykUTt1n6AianmWkvwZw==",
   "success": true,
-  "projectFilePath": "/Users/huanganni/cSharpCompiler/basic_compiler/basic_compiler.csproj",
+  "projectFilePath": "/Users/huanganni/Documents/GitHub/cSharpCompiler/basic_compiler/basic_compiler.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
