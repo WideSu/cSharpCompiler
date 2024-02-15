@@ -1,4 +1,6 @@
 // similar to Roslyn
+using System.Diagnostics;
+
 namespace basic_compiler.CodeAnalysis
 {
     internal sealed class Lexer
@@ -53,18 +55,22 @@ namespace basic_compiler.CodeAnalysis
                 var text = _text.Substring(start, length);
                 return new SyntaxToken(SyntaxKind.WhitespaceToken, start, text, null);
             }
-            if(Current=='+')
+            switch(Current)
+            {
+            case '+':
                 return new SyntaxToken(SyntaxKind.PlusToken, _position++, "+", null);
-            else if(Current=='-')
+            case '-':
                 return new SyntaxToken(SyntaxKind.MinusToken, _position++, "-", null);
-            else if(Current=='*')
+            case '*':
                 return new SyntaxToken(SyntaxKind.StarToken, _position++, "*", null);
-            else if(Current=='/')
+            case '/':
                 return new SyntaxToken(SyntaxKind.SlashToken, _position++, "/", null);
-            else if(Current=='(')
+            case '(':
                 return new SyntaxToken(SyntaxKind.OpenParenthesisToken, _position++, "(", null);
-            else if(Current==')')
+            case ')':
                 return new SyntaxToken(SyntaxKind.CloseParenthesisToken, _position++, ")", null);
+            }
+            
             _diagnostics.Add($"Error: bad character input: '{Current}'");
             return new SyntaxToken(SyntaxKind.BadToken, _position++, _text.Substring(_position - 1, 1), null);
         } 
