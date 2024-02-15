@@ -16,8 +16,8 @@ namespace basic_compiler.CodeAnalysis
         {
             // Binary Expression
             // Number Expression
-            if (node is NumberExpressionSyntax n)
-                return (int) n.NumberToken.Value;
+            if (node is LiteralExpressionSyntax n)
+                return (int) n.LiteralToken.Value;
             if (node is BinaryExpressionSyntax b)
             {
                 var left = EvaluateExpression(b.Left);

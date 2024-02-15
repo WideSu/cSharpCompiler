@@ -44,7 +44,7 @@ namespace basic_compiler.CodeAnalysis
                 {
                     _diagnostics.Add($"The number {_text} isn't a valid Int32.");
                 }
-                return new SyntaxToken(SyntaxKind.NumberToken, start, text, value);
+                return new SyntaxToken(SyntaxKind.LiteralToken, start, text, value);
             }
             if (char.IsWhiteSpace(Current))
             {

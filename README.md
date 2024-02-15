@@ -20,11 +20,11 @@ And use `#cls` to clear the screem.
 Result
 ```
 └──BinaryExpression
-    ├──NumberExpression
-    |   └──NumberToken 1
+    ├──LiteralExpression
+    |   └──LiteralToken 1
     ├──PlusToken
-    └──NumberExpression
-        └──NumberToken 3
+    ├──LiteralExpression
+        └──LiteralToken 3
 ERROR: Unexpected token <NumberToken>, expected <EndOfFileToken>
 ```
 # Phase 2: Unary operator & Conditional statement

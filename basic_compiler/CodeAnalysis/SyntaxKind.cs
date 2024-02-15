@@ -7,7 +7,7 @@ namespace basic_compiler.CodeAnalysis
         BadToken,
         EndOfFileToken,
         WhitespaceToken,
-        NumberToken,
+        LiteralToken,
         PlusToken,
         MinusToken,
         StarToken,
