@@ -1,7 +1,7 @@
 # Compiler
 An ongoing Compiler project built using C#.
 
-# Features
+# Phase 1: Lexer and Parser
 Can parse binary expressions with parenthesis, return the result with error message and parser tree.
 
 You can use `#showTree` to close or open printing parser tree.
@@ -27,3 +27,4 @@ Result
         └──NumberToken 3
 ERROR: Unexpected token <NumberToken>, expected <EndOfFileToken>
 ```
+# Phase 2: Unary operator
